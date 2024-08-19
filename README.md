@@ -37,14 +37,16 @@ Before using the extension, you need to set up a few things:
 
 ## Usage
 
-1. Solve a problem on CodeChef.
-2. Submit your solution.
-3. The extension will automatically detect your submission and start the sync process.
-4. You'll see status updates on the CodeChef page indicating the progress.
-5. Check your GitHub repository to see the uploaded solution and README.
+1. Check if the CodeSync Active message is displayed beside the submit button, if not refresh the page/extension.
+2. Solve a problem on CodeChef.
+3. Submit your solution.
+4. The extension will automatically detect your submission and start the sync process.
+5. You'll see status updates on the CodeChef page indicating the progress.
+6. Check your GitHub repository to see the uploaded solution and README.
 
 ## Notes
 
+- The extension is only active when the CodeSync Active message is displayed.
 - The extension currently works for CodeChef problems only.
 - Ensure you have the necessary permissions to push to the specified GitHub repository.
 - The extension uses the GitHub API, so be mindful of rate limits.
