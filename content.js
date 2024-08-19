@@ -319,6 +319,8 @@ async function uploadCodeToGithub(code, filePath, commitMessage, problemStatemen
             console.log('submit btn found and listener attached');
             submitBtn.addEventListener("click", handleSubmitButtonClick);
             submitBtn.setAttribute('data-listener-attached', 'true');
+            createStatusElement();
+            updateStatusElement("CodeSync Active","#00FF00");
         }
     }
 
